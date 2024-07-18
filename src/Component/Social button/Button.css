@@ -1,0 +1,44 @@
+.social-buttons-container {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8fafc;
+    padding: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button.like {
+    background-color: #3b5998; 
+  }
+  
+  .button.comment {
+    background-color: #00acee; 
+  }
+  
+  .button.share {
+    background-color: #25d366; 
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  

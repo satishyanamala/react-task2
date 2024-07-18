@@ -1,0 +1,42 @@
+.boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #f8fafc;
+  }
+  
+  .box {
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease;
+    flex: 1; /* Makes each box take equal space in the container */
+  }
+  
+  .small {
+    background-color: #b2ebf2; /* Light blue */
+    font-size: 18px;
+    height: 100px;
+  }
+  
+  .medium {
+    background-color: #ffcc80; /* Light orange */
+    font-size: 20px;
+    height: 150px;
+  }
+  
+  .large {
+    background-color: #d1c4e9; /* Light purple */
+    font-size: 24px;
+    height: 200px;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  

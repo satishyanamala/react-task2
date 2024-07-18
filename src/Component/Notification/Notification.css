@@ -1,0 +1,41 @@
+.notifications-container {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8fafc;
+    padding: 50px;
+  }
+  
+  .notification {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .notification.info {
+    background-color: #e0e7ff;
+    color: #1a73e8;
+  }
+  
+  .notification.success {
+    background-color: #d1e9c7;
+    color: #4caf50;
+  }
+  
+  .notification.warning {
+    background-color: #fff3e0;
+    color: #ff9800;
+  }
+  
+  .notification.error {
+    background-color: #f8d7da;
+    color: #f44336;
+  }
+  

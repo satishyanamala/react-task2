@@ -1,0 +1,31 @@
+.super-over-league {
+    text-align: center;
+    background-color: #f8fafc;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+  }
+  
+  .teams {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .team {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .team h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
